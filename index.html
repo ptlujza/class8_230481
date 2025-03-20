@@ -13,8 +13,12 @@
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
+	  
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bytesized&display=swap" rel="stylesheet">
 
-    <title>Firstname Lastname's Resumé</title>
+    <title>Lujza Péczely-Tallai's Resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -43,14 +47,17 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait.svg" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 my-4" src="images/Lujza_in_HUB-radio.png" alt="Portrait of Lujza Péczely-Tallai" width="200" style="border: 10px double #003AFF;">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Firstname Lastname</h1>
-          <h5 class="fst-italic tagline">Your expert in creative marketing.</h5>
+          <h1 class="bytesized-regular-title">Lujza Péczely-Tallai&nbsp;</h1> 
+          <h5 class="header">Expert of nothing.&nbsp;&nbsp;</h5>
+          <h5 class="header">Passionate for everything.</h5>
+			<br>
+          <p>Creative Business student, (currently) most focused on Audio-visual content, specifically post-production.</p>
         </div>
       </header>
 
@@ -70,7 +77,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 class="bytesized-regular">Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -81,40 +88,44 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/mvm-logo.png" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Production Assistant, Production Company</h4>
-                  <h5>April&ndash;July 2019</h5>
+                  <h4>Production Assistant, MVM Budapest</h4>
+                  <h5>August 2020</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
-                    <li>Coordinated shootings in studio and on location</li>
-                    <li>Liaised with local authorities and with suppliers</li>
-                    <li>Part of my studies at Breda University of Applied Sciences</li>
+                    <li>Learned about TV Production in Hungary</li>
+                    <li>Assisted Production Managers and actors on set</li>
+                
                   </ul>
                 </div>
               </li>
+				<br>
 
               <!-- 2nd item in professional experience -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/Subway-logo-1024x580.png" alt="Company logo" width="200">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Supermarket Employee, Supermarket chain</h4>
-                  <h5>2018</h5>
+                  <h4>Sandwich Artist, Subway, Breda</h4>
+                  <h5>2024 - 2025</h5>
+					  <ul class="biography-details list-unstyled">
+					 <li>Teamwork and time management skills</li>
+					 <li>I can make really good sandwiches</li>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
+						  </ul>
                 </div>
               </li>
 
             </ul>
           </section>
-
           <!-- We're done with jobs, let's move on to schools -->
 
-          <section class="my-3 biography-section">
-            <h2>Education</h2>
+  <section class="my-3 biography-section">
+            <h2 class="bytesized-regular">Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -124,26 +135,27 @@
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>2018&nbsp;&ndash;&nbsp;now</h5>
+                  <h5>2023&nbsp;&ndash;&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
-                    <li>Member of the student participation council</li>
-                    <li>Minor in resilient entrepreneurship</li>
-                    <li>Exchange with Bournemouth University</li>
+                    <li>Radio Department, producing podcast 'Mystery Unsolved'</li>
+                    <li>Winner team of BUas Film Festival 2024 'Like Father, Like Son' – Editor</li>
+                    <li>Exchange with LCI Barcelona in  September-December 2025</li>
                   </ul>
                 </div>
               </li>
-
+<br>
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/budapesti_osztrak_iskola_-_osterreichische_schule_budapest.png" alt="School logo" width="120">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>High School Diploma, City High School</h4>
-                  <h5>2018</h5>
+                  <h4>High School Diploma, Austrian School Budapest</h4>
+                  <h5>2023</h5>
                   <ul class="biography-details list-unstyled">
-                    <li>Audiovisual media specialization</li>
+                    <li>Graduated in German, Mathematics, Literature &amp; English language</li>
+                    <li>School specialized in Mathematics and Sciences&nbsp;&nbsp;</li>
                   </ul>
                 </div>
               </li>
@@ -163,7 +175,7 @@
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
-            <h2>Contact</h2>
+            <h2 class="bytesized-regular">Contact</h2>
             <!--
               A list of all your contact details.
               There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
@@ -174,26 +186,25 @@
               <li class="contact-item">
                 <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
                   <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
-                  email@buas.nl
+                  230481@buas.nl
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
-                  Facebook Profile
+                <a class="d-flex align-items-center" href="www.linkedin.com/in/lujza-péczely-tallai-1b1953245" target="_blank">
+                  <img class="contact-icon" src="images/icons/linkedin.svg" alt="Facebook">
+                  LinkedIn
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
+                <a class="d-flex align-items-center" href="https://letterboxd.com/ptlujza/" target="_blank">
+                  <img class="contact-icon" src="images/icons/letterboxd.svg" alt="Letterboxd">
+                  @ptlujza
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
-                  TikTok @bredauniversityas
-                </a>
+                <a class="d-flex align-items-center" href="https://www.youtube.com/watch?v=HlmcpnZ94_c&list=PLAUtFMA7lV-xhr2iRg6LwqfGlK318_pIY&pp=gAQB" target="_blank">
+                  <img class="contact-icon" src="images/icons/youtube.svg" alt="Mobile Phone">
+                Mystery Unsolved podcast </a>
               </li>
             </ul>
           </section>
@@ -201,14 +212,14 @@
           <!-- End of contact details, moving on to languages -->
 
           <section class="my-3 aside-section">
-            <h2>Languages</h2>
+            <h2 class="bytesized-regular"> Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
+                <h5 class="language-name w-50">Hungarian</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <div class="language-progress position-absolute bg-primary h-100 w-100"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
                 </div>
               </li>
@@ -216,25 +227,29 @@
                 <h5 class="language-name w-50">English</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
+                  <div class="language-progress position-absolute bg-success h-100 w-75"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">German</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Intermediate</h6>
                 </div>
+              </li>
+              <li class="language-item d-flex mb-1">
+                <h5 class="language-name w-50">Dutch &amp; 
+					French   </h5>
+                <div class="language-level w-50 border border-info border-2 position-relative">
+                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
+                  <div class="language-progress position-absolute bg-danger h-100 w-25"></div>
+                  <div class="parent-container">
+    			<h6 class="position-absolute text-center py-1">Beginner</h6>
+					
+                </div>
+					</div>
               </li>
             </ul>
           </section>
@@ -242,21 +257,21 @@
           <!-- End of contact details, moving on to other skills -->
 
           <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
+            <h2 class="bytesized-regular">Other Skills</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Team player</li>
-              <li class="skill-item">Microsoft Office Power User</li>
-              <li class="skill-item">Driving Licence</li>
+              <li class="skill-item">Adobe Creative Cloud ♡</li>
+              <li class="skill-item">Canva (does that count as a skill...?)</li>
+              <li class="skill-item">Marketing</li>
             </ul>
           </section>
 
           <!-- End of other skills, moving on to interest and hobbies -->
 
           <section class="my-3 aside-section">
-            <h2>Interests &amp; Hobbies</h2>
+            <h2 class="bytesized-regular">Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Formula 1 Driver</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
+              <li class="skill-item">In theory I enjoy watching movies when I have the attention span</li>
+<li class="skill-item">Badminton &amp; yoga</li>
             </ul>
           </section>
 
