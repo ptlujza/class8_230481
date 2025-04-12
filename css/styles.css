@@ -2,19 +2,20 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Roboto Mono";
 	color: #000000;
 	background-color: #FFFEFC;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .header {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: #000000; /* Change this to your preferred color */
+    font-family: "Roboto Mono";
+    color: #000000;
 }
 
 .aside {
